@@ -2,6 +2,8 @@
 
 // Constants are variables that can’t be reassigned after they're set.
 // e.g. const name = 'Pikachu';
+// const is like a rule we set early on.
+//Rules for code setting early on.
 
 const  = 
 
