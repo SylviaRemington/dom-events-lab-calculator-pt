@@ -5,6 +5,10 @@
 // const is like a rule we set early on.
 //Rules for code setting early on.
 
+// #calculator -there is an id of 'calculator'
+// .row - there are 4 classes of 'row'
+// .button & .number- child of row, there are 2 classes of button and number for 12 values
+
 const  = 
 
 /*-------------------------------- Variables --------------------------------*/
