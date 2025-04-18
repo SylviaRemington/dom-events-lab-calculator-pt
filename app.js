@@ -46,3 +46,45 @@ let
 // }
 // greet(); 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Older solves that didn't solve:
+// const calculatorElement = document.querySelector('#calculator');
+// console.dir(calculatorElement);
+
+// const rowElement = document.querySelector('.row');
+// console.dir(rowElement);
+
+// const displayElement = document.querySelector('.display');
+// console.dir(displayElement);
+
+// const buttonElement = document.querySelector('.button');
+// console.dir(buttonElement);
+
+// const buttonNumberElement = document.querySelector('.button number')
+// console.dir(buttonNumberElement); //console null msg
+
+// const buttonOperatorElement = document.querySelector('.button operator')
+// console.dir(buttonNumberElement); ///console null msg
+
+// const buttonEqualsElement = document.querySelector('.button equals')
+// console.dir(buttonNumberElement); /console null msg
