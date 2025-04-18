@@ -1,4 +1,8 @@
 /*-------------------------------- Constants --------------------------------*/
+//FIRST will be to enable the calculator to select numbers on the calculator.
+//Create a constant that captures all button inputs, selects the calculator, 
+// and selects the display for next steps:
+// e.g. const buttons = document.querySelectorAll('.button')
 
 // Constants are variables that can’t be reassigned after they're set.
 // e.g. const name = 'Pikachu';
@@ -11,12 +15,28 @@
 
 const  = 
 
+
+// Delete 4 lines below once start coding - just ideas:
+// Represent the buttons and numbers
+// const buttons = document.querySelectorAll(".button")
+
+// This verifies the button values are correct
+// console.log(buttons)
+
+//Also delete this below:
+// const buttons = document.querySelectorAll('.button');
+// const calculate = document.querySelector('.button.calculate');
+
 /*-------------------------------- Variables --------------------------------*/
 
 // Variables are names you use to store information in your code.
 // e.g. let score = 100;
 
 let
+
+//Delete 2 lines below once start coding:
+// To perform a calculation, we need to know what numbers and which operation
+// let firstNumber = null
 
 /*------------------------ Cached Element References ------------------------*/
 
@@ -46,7 +66,8 @@ let
 // }
 // greet(); 
 
-
+//Delete this below
+// This function takes 2 numbers and an operator, then calculates the total
 
 
 
