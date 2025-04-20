@@ -40,6 +40,21 @@ let
 // To perform a calculation, we need to know what numbers and which operation
 // let firstNumber = null
 
+Create some empty strings. Why create empty strings? Because...
+You start with an empty string ('') because:
+
+✅ The user hasn’t typed anything yet
+You’re waiting for them to click number buttons like:
+
+7 → now it’s '7'
+
+then 3 → becomes '73'
+
+then 1 → becomes '731'
+
+You're building the number digit by digit, just like someone typing on a calculator.
+
+
 /*------------------------ Cached Element References ------------------------*/
 
 // Cached element references just means saving DOM elements in a variable 
