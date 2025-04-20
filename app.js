@@ -1,3 +1,5 @@
+//This DOM Events Calculator Lab is for Tristan Hall's GA PT Software Engineering Class
+
 /*-------------------------------- Constants --------------------------------*/
 //FIRST will be to enable the calculator to select numbers on the calculator.
 //Create a constant that captures all button inputs, selects the calculator, 
