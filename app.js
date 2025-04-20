@@ -81,6 +81,11 @@ You're building the number digit by digit, just like someone typing on a calcula
     // relatively slow).
 
 
+const displayElement = 
+const numberButtonsElements = 
+const operatorButtonsElements = 
+const equalsButtonElement = 
+const clearButtonElement = 
 
 
 
