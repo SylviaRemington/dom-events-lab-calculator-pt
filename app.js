@@ -81,11 +81,11 @@ You're building the number digit by digit, just like someone typing on a calcula
     // relatively slow).
 
 
-const displayElement = 
-const numberButtonsElements = 
-const operatorButtonsElements = 
-const equalsButtonElement = 
-const clearButtonElement = 
+const displayElement = document.querySelector();
+const numberButtonsElements = document.querySelectorAll();
+const operatorButtonsElements = document.querySelectorAll();
+const equalsButtonElement = document.querySelector();
+const clearButtonElement = document.querySelector();
 
 
 
