@@ -52,6 +52,20 @@ let
     // query the DOM repeatedly for the same element. When we want to interact with it, 
     // we use the variable."
 
+    // Creating cached element references is a technique in which a DOM element is stored
+    //  in a variable for future use, minimizing the need to query the DOM to access the 
+    //  same element repeatedly. This phrase is derived from the term caching in 
+    //  computer science. Caching is a technique used in computing to store data 
+    //  temporarily in a local storage location, known as a cache, 
+    //  so that future requests for that data can be accessed faster.
+
+//     This is important for a few reasons:
+    // We can write less code.
+    // Querying for elements in the DOM is prone to errors. Doing it less avoids some of 
+    // those errors. It improves performance (querying for elements in the DOM is 
+    // relatively slow).
+
+
 
 
 
