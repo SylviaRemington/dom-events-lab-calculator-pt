@@ -45,6 +45,14 @@ let
 // Cached element references just means saving DOM elements in a variable 
 // so you don’t have to look them up again and again.
 // e.g. const button = document.querySelector('.my-button');
+//From Intro to the Dom, selecting an element section - "Caching elements
+    // In the example above, we stored the result of document.querySelector('#main-title) 
+    // to a variable (titleElement). We’ll commonly refer to that variable as a 
+    // cached element reference. That sounds fancy, but it means that we don’t need to 
+    // query the DOM repeatedly for the same element. When we want to interact with it, 
+    // we use the variable."
+
+
 
 
 
