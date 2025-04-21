@@ -37,6 +37,12 @@
 // let
 
 let number = ''; //let the number be whatever it is
+let inputNow = ''; //what the user is typing in now (e.g. the number 7)
+let operatorChosen = '';//the math symbol they clicked (plus, minus, multiply, divide)
+let resultingFinalAnswer= ''; //the final result after calculation performed
+let clearingOut = ''; //when clearing the numbers to do a new calculation
+// The values are empty strings ('') at the start because the user hasn’t done anything yet.
+
 
 //Delete 2 lines below once start coding:
 // To perform a calculation, we need to know what numbers and which operation
