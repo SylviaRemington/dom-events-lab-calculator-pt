@@ -19,3 +19,6 @@ I'd like to initially have the user upload their own personal image (it can be a
 Maybe create something so that after each time they add two numbers and solve a problem, they get to go to the "next level" of the calculator and have a different image show up.
 
 When I figure out how to do that, that will be dope!!!! Yay! 
+
+
+Another idea: add alphabet to the calculator like how phones are... Oh create a phone calculator!
