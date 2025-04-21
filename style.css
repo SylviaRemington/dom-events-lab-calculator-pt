@@ -35,6 +35,8 @@
     border-radius: 8px;
     border: 1px solid rgba(30, 28, 28);
     background-color: rgba(30, 28, 28);
+    /* attempting to add transparency to calculator so can customize calc with 
+    image of person behind it */
   }
   
   .row {
