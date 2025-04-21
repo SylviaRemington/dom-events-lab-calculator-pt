@@ -57,6 +57,12 @@ let number = ''; //let the number be whatever it is
 // You're building the number digit by digit, just like someone typing on a calculator.
 
 
+
+
+
+
+
+
 /*------------------------ Cached Element References ------------------------*/
 
 // Cached element references just means saving DOM elements in a variable 
@@ -88,7 +94,7 @@ console.log(displayElement);
 console.dir(displayElement);
 
 const buttonElements = document.querySelectorAll('.button'); //telling the DOM to find and select the button elements
-console.log(buttonElements);//@Alara, why does the node list come up as 0 if there are 10 numbers?
+console.log(buttonElements);
 console.dir(buttonElements);
 
 const numberButtonElements = document.querySelectorAll('.number'); //telling the DOM to find and select the buttons with numbers on them
