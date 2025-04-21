@@ -15,7 +15,7 @@
 // .row - there are 4 classes of 'row'
 // .button & .number- child of row, there are 2 classes of button and number for 12 values
 
-const  = 
+// const  = 
 
 
 // Delete 4 lines below once start coding - just ideas:
@@ -34,7 +34,7 @@ const  =
 // Variables are names you use to store information in your code.
 // e.g. let score = 100;
 
-let
+// let
 
 let number = ''; //let the number be whatever it is
 
@@ -42,19 +42,19 @@ let number = ''; //let the number be whatever it is
 // To perform a calculation, we need to know what numbers and which operation
 // let firstNumber = null
 
-Create some empty strings. Why create empty strings? Because...
-You start with an empty string ('') because:
+// Create some empty strings. Why create empty strings? Because...
+// You start with an empty string ('') because:
 
-✅ The user hasn’t typed anything yet
-You’re waiting for them to click number buttons like:
+// ✅ The user hasn’t typed anything yet
+// You’re waiting for them to click number buttons like:
 
-7 → now it’s '7'
+// 7 → now it’s '7'
 
-then 3 → becomes '73'
+// then 3 → becomes '73'
 
-then 1 → becomes '731'
+// then 1 → becomes '731'
 
-You're building the number digit by digit, just like someone typing on a calculator.
+// You're building the number digit by digit, just like someone typing on a calculator.
 
 
 /*------------------------ Cached Element References ------------------------*/
@@ -83,13 +83,28 @@ You're building the number digit by digit, just like someone typing on a calcula
     // relatively slow).
 
 
-const displayElement = document.querySelector(); //telling the DOM to select the display, where the answers will pop out
-const buttonElements = document.querySelectorAll('click'); //telling the DOM to find and select the button elements
-const numberButtonsElements = document.querySelectorAll(); //telling the DOM to find and select the buttons with numbers on them
-const operatorButtonsElements = document.querySelectorAll(); 
-const equalsButtonElement = document.querySelector();
-const clearButtonElement = document.querySelector();
+const displayElement = document.querySelector('.display'); //telling the DOM to select the display, where the answers will pop out
+console.log(displayElement);
+console.dir(displayElement);
 
+const buttonElements = document.querySelectorAll('.button'); //telling the DOM to find and select the button elements
+console.log(buttonElements);//@Alara, why does the node list come up as 0 if there are 10 numbers?
+console.dir(buttonElements);
+
+const numberButtonElements = document.querySelectorAll('.number'); //telling the DOM to find and select the buttons with numbers on them
+console.log(numberButtonElements);
+console.dir(numberButtonElements);
+
+const operatorButtonsElements = document.querySelectorAll('.operator'); 
+console.log(operatorButtonsElements);
+console.dir(operatorButtonsElements);
+
+const equalsButtonElement = document.querySelector('#equals');
+console.log(equalsButtonElement);
+console.dir(equalsButtonElement);
+
+const clearButtonElement = document.querySelector('#clear');
+console.dir(clearButtonElement);
 
 
 
@@ -105,7 +120,7 @@ const clearButtonElement = document.querySelector();
 
 
 
-Listening for button clicks
+// Listening for button clicks
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -119,7 +134,7 @@ Listening for button clicks
 //Delete this below
 // This function takes 2 numbers and an operator, then calculates the total
 
-Functions/Actions that need to happen so that code and clicks can be read 
+// Functions/Actions that need to happen so that code and clicks can be read 
 
 
 
