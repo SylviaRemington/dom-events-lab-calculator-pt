@@ -82,6 +82,7 @@ You're building the number digit by digit, just like someone typing on a calcula
 
 
 const displayElement = document.querySelector();
+const buttonElements = document.querySelectorAll('click');
 const numberButtonsElements = document.querySelectorAll();
 const operatorButtonsElements = document.querySelectorAll();
 const equalsButtonElement = document.querySelector();
@@ -96,10 +97,11 @@ const clearButtonElement = document.querySelector();
 // something—like a click, key press, or mouse move.
 // e.g. 
 
-// button.addEventListener('click', function() {
+// buttonElements.addEventListener('click', function() {
 //     console.log('Button was clicked!');
 //   });
 
+Listening for button clicks
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -113,6 +115,7 @@ const clearButtonElement = document.querySelector();
 //Delete this below
 // This function takes 2 numbers and an operator, then calculates the total
 
+Functions/Actions that need to happen so that code and clicks can be read 
 
 
 
