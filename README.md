@@ -12,7 +12,7 @@ I was going to work on and with which I was going to create Event Listeners.
 
 ____________________________________________________________________________________
 
-Additional Idea to customize calculator's for each user using the calculator.
+Additional Idea to customize calculator's for each user using the calculator:
 
 I'd like to initially like to have the user upload their personal image to the body of the calculator so that it can be the background of the calculator, while they solve problems.
 
