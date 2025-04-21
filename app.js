@@ -157,8 +157,13 @@ console.log(buttonNum7);//this works now!
 console.dir(buttonNum7);//this works now!
 //Also, now when I click on the #7 button, it registers 7 in the display! Yay!
 
+numberButtonElements.addEventListener('click', )
 
 
+
+// numberButtonElements.addEventListener('click', some function {
+
+// })
 
 
 // The initial Event Listeners trys that failed:
