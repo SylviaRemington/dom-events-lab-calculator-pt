@@ -82,7 +82,7 @@ let number = ''; //let the number be whatever it is
     // those errors. It improves performance (querying for elements in the DOM is 
     // relatively slow).
 
-
+//I did this section first
 const displayElement = document.querySelector('.display'); //telling the DOM to select the display, where the answers will pop out
 console.log(displayElement);
 console.dir(displayElement);
