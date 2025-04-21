@@ -102,7 +102,7 @@ console.log(buttonNum3)
 const buttonNum0 = document.getElementById('0');
 console.log(buttonNum0)
 
-// I did querySelector for display, button, number, operator, equals, and clear below
+// I did querySelector for display, button, number, operator, equals, and clear above
 // in Cached Element References
 
 
@@ -111,6 +111,8 @@ console.log(buttonNum0)
 // Variables are names you use to store information in your code.
 // e.g. let score = 100;
 //defining the variables?
+//Alara, I don't understand why I need this section of variables when we already created
+// variables with the "Cached Elements Reference" section? I'm confused.
 
 
 let number = ''; //let the number be whatever it is
@@ -144,6 +146,18 @@ let error = false;
 // Event listeners are ways to make your webpage react to something—like a click, key press, or mouse move.
 // Listening for button clicks
 
+// const display = document.querySelector('.display');
+// const button7 = document.getElementById('7');
+
+buttonNum7.addEventListener('click', function(){ 
+    display.innerText += '7';
+})
+
+console.log(buttonNum7);
+console.dir(buttonNum7);//so these are coming up on the console
+//however, when I click on the #7 button I just get this message: 
+//app.js:153 Uncaught ReferenceError: display is not defined
+// at HTMLDivElement.<anonymous> (app.js:153:5)
 
 
 
