@@ -1,78 +1,8 @@
 //This DOM Events Calculator Lab is for Tristan Hall's GA PT Software Engineering Class
-
-/*-------------------------------- Constants --------------------------------*/
-//FIRST will be to enable the calculator to select numbers on the calculator.
-//Create a constant that captures all button inputs, selects the calculator, 
-// and selects the display for next steps:
-// e.g. const buttons = document.querySelectorAll('.button')
-
-// Constants are variables that can’t be reassigned after they're set.
-// e.g. const name = 'Pikachu';
-// const is like a rule we set early on.
-//Rules for code setting early on.
-
-// #calculator -there is an id of 'calculator'
-// .row - there are 4 classes of 'row'
-// .button & .number- child of row, there are 2 classes of button and number for 12 values
-
-// const  = 
-
-
-// Delete 4 lines below once start coding - just ideas:
-// Represent the buttons and numbers
-// const buttons = document.querySelectorAll(".button")
-
-// This verifies the button values are correct
-// console.log(buttons)
-
-//Also delete this below:
-// const buttons = document.querySelectorAll('.button');
-// const calculate = document.querySelector('.button.calculate');
-
-/*-------------------------------- Variables --------------------------------*/
-
-// Variables are names you use to store information in your code.
-// e.g. let score = 100;
-//defining the variables?
-
-// let
-
-let number = ''; //let the number be whatever it is
-let inputNow = ''; //what the user is typing in now (e.g. the number 7)
-let operatorChosen = '';//the math symbol they clicked (plus, minus, multiply, divide)
-let resultingFinalAnswer= ''; //the final result after calculation performed
-let clearingOut = ''; //when clearing the numbers to do a new calculation
-// The values are empty strings ('') at the start because the user hasn’t done anything yet.
-
-let history = ''; //show calculation history if a kid is using this for homework
-let error = false;
-
-
-
-//Delete 2 lines below once start coding:
-// To perform a calculation, we need to know what numbers and which operation
-// let firstNumber = null
-
-// Create some empty strings. Why create empty strings? Because...
-// You start with an empty string ('') because:
-
-// ✅ The user hasn’t typed anything yet
-// You’re waiting for them to click number buttons like:
-
-// 7 → now it’s '7'
-
-// then 3 → becomes '73'
-
-// then 1 → becomes '731'
-
-// You're building the number digit by digit, just like someone typing on a calculator.
-
-
-
-
-
-
-
+//@Alara, I don't fully get how all these sections work together; thus, I may have added
+//more steps than I needed to. I mostly don't get how you can create a functioning calculator
+//withouth first defining each number. Is there a way to create a calculator w/o defining 
+//each number???
 
 /*------------------------ Cached Element References ------------------------*/
 
@@ -99,7 +29,18 @@ let error = false;
     // those errors. It improves performance (querying for elements in the DOM is 
     // relatively slow).
 
-//I did this section first
+// Represent the buttons and numbers
+// const buttons = document.querySelectorAll(".button")
+
+// This verifies what I've selected is correct
+// console.log(buttons)
+
+//Addtl ideas:
+// const buttons = document.querySelectorAll('.button');
+// const calculate = document.querySelector('.button.calculate');   
+
+
+//I did this section first/ Selecting parts of the calculator
 const displayElement = document.querySelector('.display'); //telling the DOM to select the display, where the answers will pop out
 console.log(displayElement);//verifying element selection is correct
 console.dir(displayElement);
@@ -124,18 +65,98 @@ const clearButtonElement = document.querySelector('#clear');
 console.dir(clearButtonElement);
 
 
+/*-------------------------------- Constants --------------------------------*/
+//FIRST will be to enable the calculator to select numbers on the calculator.
+//Create a constant that captures all button inputs, selects the calculator, 
+// and selects the display for next steps:
+// e.g. const buttons = document.querySelectorAll('.button')
+//however, in researching this, the aforementioned example is actually more appropriately 
+//put in Cached Element References Section
+
+// Constants are variables that can’t be reassigned after they're set.
+// const is a rule we set early on... rules for code setting early on.
+
+// #calculator -there is an id of 'calculator'
+// .row - there are 4 classes of 'row'
+// .button & .number- child of row, there are 2 classes of button and number for 12 values
+
+//Selecting more specific parts of the calculator, individual numbers for specific calculations
+const buttonNum7 = document.getElementById('7');
+console.log(buttonNum7)
+const buttonNum8 = document.getElementById('8');
+console.log(buttonNum8)
+const buttonNum9 = document.getElementById('9');
+console.log(buttonNum9)
+const buttonNum4 = document.getElementById('4');
+console.log(buttonNum4)
+const buttonNum5 = document.getElementById('5');
+console.log(buttonNum5)
+const buttonNum6 = document.getElementById('6');
+console.log(buttonNum6)
+const buttonNum1 = document.getElementById('1');
+console.log(buttonNum1)
+const buttonNum2 = document.getElementById('2');
+console.log(buttonNum2)
+const buttonNum3 = document.getElementById('3');
+console.log(buttonNum3)
+const buttonNum0 = document.getElementById('0');
+console.log(buttonNum0)
+
+// I did querySelector for display, button, number, operator, equals, and clear below
+// in Cached Element References
+
+
+/*-------------------------------- Variables --------------------------------*/
+
+// Variables are names you use to store information in your code.
+// e.g. let score = 100;
+//defining the variables?
+
+
+let number = ''; //let the number be whatever it is
+console.log(number);//shows blank in console cause empty string
+
+let operator = '';
+console.log(operator); //shows blank in console cause empty string
+
+let inputNow = ''; //what the user is typing in now (e.g. the number 7)
+let operatorChosen = '';//the math symbol they clicked (plus, minus, multiply, divide)
+let resultingFinalAnswer= ''; //the final result after calculation performed
+let clearingOut = ''; //when clearing the numbers to do a new calculation
+// The values are empty strings ('') at the start because the user hasn’t done anything yet.
+let history = ''; //show calculation history if a kid is using this for homework
+let error = false;
+
+// To perform any type of calculation, we need to know what numbers and which operation to use
+// let firstNumber = null// why do some people use null?
+
+// Create some empty strings. Why create empty strings? Because...
+// You start with an empty string ('') because:
+
+// The user hasn’t typed anything yet
+// You’re waiting for them to click number buttons like
+
+
+
 
 /*----------------------------- Event Listeners -----------------------------*/
 
 // Event listeners are ways to make your webpage react to something—like a click, key press, or mouse move.
+// Listening for button clicks
 
-buttonElements.addEventListener('click', function() { 
-    console.log('Button was clicked!');
-  });
 
-  console.log(buttonElements);   // app.js:134 Uncaught TypeError: 
+
+
+
+
+// The initial Event Listeners trys that failed:
+// buttonElements.addEventListener('click', function() { 
+//     console.log('Button was clicked!');
+//   });
+
+//   console.log(buttonElements);   // app.js:134 Uncaught TypeError: 
   // buttonElements.addEventListener is not a function at app.js:134:16
-  console.dir(buttonElements); //same error message as above... googled it and it said
+//   console.dir(buttonElements); //same error message as above... googled it and it said
   //
 
 // This below is something I want to do
@@ -143,7 +164,7 @@ buttonElements.addEventListener('click', function() {
 // do a function that adds - add num1 and num2 )
 
 
-// Listening for button clicks
+
 
 /*-------------------------------- Functions --------------------------------*/
 
