@@ -158,6 +158,7 @@ console.dir(buttonNum7);//so these are coming up on the console
 //however, when I click on the #7 button I just get this message: 
 //app.js:153 Uncaught ReferenceError: display is not defined
 // at HTMLDivElement.<anonymous> (app.js:153:5)
+//realize that I wrote 'display' instead of 'displayElement'
 
 
 
