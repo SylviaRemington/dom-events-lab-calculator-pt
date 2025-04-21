@@ -124,6 +124,9 @@ console.dir(clearButtonElement);
 //     console.log('Button was clicked!');
 //   });
 
+// This below
+// buttonElements.addEventListener('click', ()=> number 1 = value of number 1 function and then 
+// do a function that adds - add num1 and num2 )
 
 
 // Listening for button clicks
