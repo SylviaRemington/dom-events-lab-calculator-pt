@@ -90,7 +90,7 @@ let number = ''; //let the number be whatever it is
 
 //I did this section first
 const displayElement = document.querySelector('.display'); //telling the DOM to select the display, where the answers will pop out
-console.log(displayElement);
+console.log(displayElement);//verifying element selection is correct
 console.dir(displayElement);
 
 const buttonElements = document.querySelectorAll('.button'); //telling the DOM to find and select the button elements
