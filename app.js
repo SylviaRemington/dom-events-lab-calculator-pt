@@ -43,6 +43,10 @@ let resultingFinalAnswer= ''; //the final result after calculation performed
 let clearingOut = ''; //when clearing the numbers to do a new calculation
 // The values are empty strings ('') at the start because the user hasn’t done anything yet.
 
+let history = ''; //show calculation history if a kid is using this for homework
+let error = false;
+
+
 
 //Delete 2 lines below once start coding:
 // To perform a calculation, we need to know what numbers and which operation
