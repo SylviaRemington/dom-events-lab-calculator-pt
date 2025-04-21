@@ -9,3 +9,13 @@ ________________________________________________________________________________
 
 First area I worked on was "Cached Element References" to select elements 
 I was going to work on and with which I was going to create Event Listeners.
+
+____________________________________________________________________________________
+
+Additional Idea to customize calculator's for each user using the calculator.
+
+I'd like to initially like to have the user upload their personal image to the body of the calculator so that it can be the background of the calculator, while they solve problems.
+
+Maybe create something so that after each time they add something and solve a problem, they get to go to the "next level" of the calculator and have a different image show up.
+
+When I figure out how to do that, that will be dope!!!! Yay! 
