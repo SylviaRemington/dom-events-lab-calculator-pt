@@ -57,4 +57,30 @@
     border-radius: 4px;
     border: 2px solid rgb(18, 184, 73);
   }
+
+  #divide {
+    background-color: rgb(202, 15, 15);
+    border-color: darkred;
+
+  }
   
+  #multiply {
+    background-color: rgb(217, 132, 47);
+    border-color: rgb(217, 132, 47);
+  }
+
+  #subtract {
+    background-color: darkorchid;
+    border-color: darkorchid;
+  }
+
+  #add {
+
+    background-color: darkcyan;
+    border-color: darkcyan;
+  }
+
+  #clear {
+    background-color: rgb(68, 68, 214);
+    border-color: rgb(68, 68, 214);
+  }
