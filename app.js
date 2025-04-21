@@ -33,6 +33,7 @@
 
 // Variables are names you use to store information in your code.
 // e.g. let score = 100;
+//defining the variables?
 
 // let
 
@@ -126,15 +127,18 @@ console.dir(clearButtonElement);
 
 /*----------------------------- Event Listeners -----------------------------*/
 
-// Event listeners are ways to make your webpage react to 
-// something—like a click, key press, or mouse move.
-// e.g. 
+// Event listeners are ways to make your webpage react to something—like a click, key press, or mouse move.
 
-// buttonElements.addEventListener('click', function() {
-//     console.log('Button was clicked!');
-//   });
+buttonElements.addEventListener('click', function() { 
+    console.log('Button was clicked!');
+  });
 
-// This below
+  console.log(buttonElements);   // app.js:134 Uncaught TypeError: 
+  // buttonElements.addEventListener is not a function at app.js:134:16
+  console.dir(buttonElements); //same error message as above... googled it and it said
+  //
+
+// This below is something I want to do
 // buttonElements.addEventListener('click', ()=> number 1 = value of number 1 function and then 
 // do a function that adds - add num1 and num2 )
 
