@@ -177,10 +177,16 @@ console.dir(clearButtonElement);
 // console.dir(buttonElement);
 
 // const buttonNumberElement = document.querySelector('.button number')
-// console.dir(buttonNumberElement); //console null msg
+// console.dir(buttonNumberElement); //console null msg -- because button and number are two separate classes, not one. Need '.' infront of number too.
 
 // const buttonOperatorElement = document.querySelector('.button operator')
-// console.dir(buttonNumberElement); ///console null msg
+// console.dir(buttonNumberElement); ///console null msg -- because button and operator are two separate classes, not one. Need '.' infront of number too.
 
 // const buttonEqualsElement = document.querySelector('.button equals')
 // console.dir(buttonNumberElement); /console null msg
+
+
+
+
+// IDEAS!!!! TO ADD!!! 
+// Add something that says "kapow! Here's your number: " when you've pressed equals button.
