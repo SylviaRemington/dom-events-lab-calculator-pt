@@ -36,6 +36,8 @@ const  =
 
 let
 
+let number = ''; //let the number be whatever it is
+
 //Delete 2 lines below once start coding:
 // To perform a calculation, we need to know what numbers and which operation
 // let firstNumber = null
@@ -81,10 +83,10 @@ You're building the number digit by digit, just like someone typing on a calcula
     // relatively slow).
 
 
-const displayElement = document.querySelector();
-const buttonElements = document.querySelectorAll('click');
-const numberButtonsElements = document.querySelectorAll();
-const operatorButtonsElements = document.querySelectorAll();
+const displayElement = document.querySelector(); //telling the DOM to select the display, where the answers will pop out
+const buttonElements = document.querySelectorAll('click'); //telling the DOM to find and select the button elements
+const numberButtonsElements = document.querySelectorAll(); //telling the DOM to find and select the buttons with numbers on them
+const operatorButtonsElements = document.querySelectorAll(); 
 const equalsButtonElement = document.querySelector();
 const clearButtonElement = document.querySelector();
 
@@ -100,6 +102,8 @@ const clearButtonElement = document.querySelector();
 // buttonElements.addEventListener('click', function() {
 //     console.log('Button was clicked!');
 //   });
+
+
 
 Listening for button clicks
 
