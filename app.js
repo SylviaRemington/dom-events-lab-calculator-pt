@@ -150,15 +150,12 @@ let error = false;
 // const button7 = document.getElementById('7');
 
 buttonNum7.addEventListener('click', function(){ 
-    display.innerText += '7';
+    displayElement.innerText += '7';
 })
 
-console.log(buttonNum7);
-console.dir(buttonNum7);//so these are coming up on the console
-//however, when I click on the #7 button I just get this message: 
-//app.js:153 Uncaught ReferenceError: display is not defined
-// at HTMLDivElement.<anonymous> (app.js:153:5)
-//realize that I wrote 'display' instead of 'displayElement'
+console.log(buttonNum7);//this works now!
+console.dir(buttonNum7);//this works now!
+//Also, now when I click on the #7 button, it registers 7 in the display! Yay!
 
 
 
