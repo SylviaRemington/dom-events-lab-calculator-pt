@@ -32,16 +32,6 @@
     // those errors. It improves performance (querying for elements in the DOM is 
     // relatively slow).
 
-// Represent the buttons and numbers
-// const buttons = document.querySelectorAll(".button")
-
-// This verifies what I've selected is correct
-// console.log(buttons)
-
-//Addtl ideas:
-// const buttons = document.querySelectorAll('.button');
-// const calculate = document.querySelector('.button.calculate');   
-
 
 //I did this section first/ Selecting parts of the calculator
 const displayElement = document.querySelector('.display'); //telling the DOM to select the display, where the answers will pop out
@@ -106,7 +96,7 @@ const buttonNum0 = document.getElementById('0');
 console.log(buttonNum0)
 
 // I did querySelector for display, button, number, operator, equals, and clear above
-// in Cached Element References
+// in Cached Element References, and then got more specific with numbers for constants
 
 
 /*-------------------------------- Variables --------------------------------*/
@@ -136,10 +126,8 @@ let error = false;
 // let firstNumber = null// why do some people use null?
 
 // Create some empty strings. Why create empty strings? Because...
-// You start with an empty string ('') because:
-
-// The user hasn’t typed anything yet
-// You’re waiting for them to click number buttons like
+// You start with an empty string ('') because the user hasn’t typed anything yet
+// You’re waiting for them to click number buttons for example.
 
 
 
@@ -195,9 +183,7 @@ numberButtonElements.addEventListener('click', )
 // }
 // greet(); 
 
-//Delete this below
-// This function takes 2 numbers and an operator, then calculates the total
-
+// To create a function that takes 2 numbers and an operator, then calculates the total
 // Functions/Actions that need to happen so that code and clicks can be read 
 
 
