@@ -4,6 +4,9 @@
 //withouth first defining each number. Is there a way to create a calculator w/o defining 
 //each number???
 
+//@Alara... this is as far as I've gotten thus far. I'm still going to keep working on it
+//until I complete it.
+
 /*------------------------ Cached Element References ------------------------*/
 
 // Cached element references just means saving DOM elements in a variable 
