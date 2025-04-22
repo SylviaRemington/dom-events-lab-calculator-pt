@@ -5,10 +5,11 @@
 //each number???
 
 //@Alara... this is as far as I've gotten thus far. I'm still going to keep working on it
-//until I complete it.
+//until I complete it. Are there addtl websites you recommend for learning Dom & Dom events?
+//This lesson is a little tricky for me and I don't totally get it.
 
 /*------------------------ Cached Element References ------------------------*/
-
+//These notes below are for me so that I understand this section.
 // Cached element references just means saving DOM elements in a variable 
 // so you don’t have to look them up again and again.
 // e.g. const button = document.querySelector('.my-button');
@@ -33,7 +34,7 @@
     // relatively slow).
 
 
-//I did this section first/ Selecting parts of the calculator
+//@Alara, I did this section first/ Selecting parts of the calculator
 const displayElement = document.querySelector('.display'); //telling the DOM to select the display, where the answers will pop out
 console.log(displayElement);//verifying element selection is correct
 console.dir(displayElement);
@@ -59,6 +60,7 @@ console.dir(clearButtonElement);
 
 
 /*-------------------------------- Constants --------------------------------*/
+//These notes below are for me so that I understand this section.
 //FIRST will be to enable the calculator to select numbers on the calculator.
 //Create a constant that captures all button inputs, selects the calculator, 
 // and selects the display for next steps:
@@ -73,7 +75,7 @@ console.dir(clearButtonElement);
 // .row - there are 4 classes of 'row'
 // .button & .number- child of row, there are 2 classes of button and number for 12 values
 
-//Selecting more specific parts of the calculator, individual numbers for specific calculations
+//@Alara - Selecting more specific parts of the calculator, individual numbers for specific calculations
 const buttonNum7 = document.getElementById('7');
 console.log(buttonNum7)
 const buttonNum8 = document.getElementById('8');
@@ -95,15 +97,16 @@ console.log(buttonNum3)
 const buttonNum0 = document.getElementById('0');
 console.log(buttonNum0)
 
-// I did querySelector for display, button, number, operator, equals, and clear above
+// @Alara, I did querySelector for display, button, number, operator, equals, and clear above
 // in Cached Element References, and then got more specific with numbers for constants
 
 
 /*-------------------------------- Variables --------------------------------*/
-
+//These notes below are for me so that I understand this section.
 // Variables are names you use to store information in your code.
 // e.g. let score = 100;
 //defining the variables?
+
 //Alara, I don't understand why I need this section of variables when we already created
 // variables with the "Cached Elements Reference" section? I'm confused.
 
@@ -123,8 +126,10 @@ let history = ''; //show calculation history if a kid is using this for homework
 let error = false;
 
 // To perform any type of calculation, we need to know what numbers and which operation to use
-// let firstNumber = null// why do some people use null?
+// let firstNumber = null// @Alara, why do some people use null?
 
+
+//These notes below are for me so that I understand this section.
 // Create some empty strings. Why create empty strings? Because...
 // You start with an empty string ('') because the user hasn’t typed anything yet
 // You’re waiting for them to click number buttons for example.
@@ -133,7 +138,7 @@ let error = false;
 
 
 /*----------------------------- Event Listeners -----------------------------*/
-
+//These notes below are for me so that I understand this section.
 // Event listeners are ways to make your webpage react to something—like a click, key press, or mouse move.
 // Listening for button clicks
 
@@ -175,7 +180,7 @@ numberButtonElements.addEventListener('click', )
 
 
 /*-------------------------------- Functions --------------------------------*/
-
+//These notes below are for me so that I understand this section.
 // Functions are blocks of code you can reuse. They do a specific job when you call them.
 // e.g. 
 // function greet() {
