@@ -1,3 +1,5 @@
+// <!-- RE-REVIEWING AGAIN 4/27/25 --> 
+
 //This DOM Events Calculator Lab is for Tristan Hall's GA PT Software Engineering Class
 //@Alara, I don't fully get how all these sections work together; thus, I may have added
 //more steps than I needed to. I mostly don't get how you can create a functioning calculator
