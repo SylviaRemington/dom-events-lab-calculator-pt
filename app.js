@@ -1,14 +1,14 @@
-// <!-- RE-REVIEWING AGAIN 4/27/25 --> 
-
 //This DOM Events Calculator Lab is for Tristan Hall's GA PT Software Engineering Class
+
+// RE-REVIEWING AGAIN 4/27/25
+
+// RE-REVIEWING AGAIN 5/14/25
+
 //@Alara, I don't fully get how all these sections work together; thus, I may have added
 //more steps than I needed to. I mostly don't get how you can create a functioning calculator
-//withouth first defining each number. Is there a way to create a calculator w/o defining 
-//each number???
-
-//@Alara... this is as far as I've gotten thus far. I'm still going to keep working on it
+//without first defining each number. Is there a way to create a calculator w/o defining 
+//each number? ...This is as far as I've gotten. I'm still going to keep working on it
 //until I complete it. Are there addtl websites you recommend for learning Dom & Dom events?
-//This lesson is a little tricky for me and I don't totally get it.
 
 /*------------------------ Cached Element References ------------------------*/
 //These notes below are for me so that I understand this section.
@@ -36,7 +36,7 @@
     // relatively slow).
 
 
-//@Alara, I did this section first/ Selecting parts of the calculator
+//Selecting parts of the calculator
 const displayElement = document.querySelector('.display'); //telling the DOM to select the display, where the answers will pop out
 console.log(displayElement);//verifying element selection is correct
 console.dir(displayElement);
@@ -77,7 +77,7 @@ console.dir(clearButtonElement);
 // .row - there are 4 classes of 'row'
 // .button & .number- child of row, there are 2 classes of button and number for 12 values
 
-//@Alara - Selecting more specific parts of the calculator, individual numbers for specific calculations
+//Selecting more specific parts of the calculator, individual numbers for specific calculations
 const buttonNum7 = document.getElementById('7');
 console.log(buttonNum7)
 const buttonNum8 = document.getElementById('8');
@@ -131,12 +131,10 @@ let error = false;
 // let firstNumber = null// @Alara, why do some people use null?
 
 
-//These notes below are for me so that I understand this section.
+//BELOW, these notes are for me so that I understand this section.
 // Create some empty strings. Why create empty strings? Because...
 // You start with an empty string ('') because the user hasn’t typed anything yet
 // You’re waiting for them to click number buttons for example.
-
-
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -155,30 +153,12 @@ console.log(buttonNum7);//this works now!
 console.dir(buttonNum7);//this works now!
 //Also, now when I click on the #7 button, it registers 7 in the display! Yay!
 
-numberButtonElements.addEventListener('click', )//not a function yet... trying to create it for all buttons
-
+numberButtonElements.addEventListener('click', )
+//not a function yet... trying to create it for all buttons
 
 
 // numberButtonElements.addEventListener('click', some function {
-
 // })
-
-
-// The initial Event Listeners trys that failed:
-// buttonElements.addEventListener('click', function() { 
-//     console.log('Button was clicked!');
-//   });
-
-//   console.log(buttonElements);   // app.js:134 Uncaught TypeError: 
-  // buttonElements.addEventListener is not a function at app.js:134:16
-//   console.dir(buttonElements); //same error message as above... googled it and it said
-  //
-
-// This below is something I want to do
-// buttonElements.addEventListener('click', ()=> number 1 = value of number 1 function and then 
-// do a function that adds - add num1 and num2 )
-
-
 
 
 /*-------------------------------- Functions --------------------------------*/
@@ -204,11 +184,21 @@ numberButtonElements.addEventListener('click', )//not a function yet... trying t
 
 
 
+//------CODE GRAVEYARD-------------------------------------------------------------------
 
+// The initial Event Listeners trys that failed:
+// buttonElements.addEventListener('click', function() { 
+//     console.log('Button was clicked!');
+//   });
 
+//   console.log(buttonElements);   // app.js:134 Uncaught TypeError: 
+  // buttonElements.addEventListener is not a function at app.js:134:16
+//   console.dir(buttonElements); //same error message as above... googled it and it said
+  //
 
-
-
+// This below is something I want to do
+// buttonElements.addEventListener('click', ()=> number 1 = value of number 1 function and then 
+// do a function that adds - add num1 and num2 )
 
 
 // Older solves that didn't solve:
